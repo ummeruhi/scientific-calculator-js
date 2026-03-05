@@ -160,7 +160,7 @@ body{
   background: rgba(255,76,190,0.18);
   font-weight: 900;
   font-size: 16px;
-  grid-row: span 2;
+  /* no row span => avoids layout issues */
 }
 .btn.ghost{ background: rgba(255,255,255,0.04); }
 .btn.soft{ background: rgba(255,255,255,0.07); }
